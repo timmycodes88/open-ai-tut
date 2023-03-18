@@ -66,7 +66,7 @@ const Message = styled.div(({ blueMsg }) => [
     ? tw`bg-blue-500 text-white rounded-l-2xl ml-auto`
     : tw`bg-neutral-300 text-neutral-800 rounded-r-2xl`,
 ])
-const Gif = tw.img`h-12 w-16`
+const Gif = tw.img`h-12 w-[4.5rem]`
 
 // Message Form
 /**
